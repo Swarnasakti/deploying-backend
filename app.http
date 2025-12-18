@@ -1,0 +1,12 @@
+POST http://localhost:5000/api/habits
+content-type: application/json
+
+{
+  "name": "Walking",
+  "frequency": 3
+}
+
+GET http://localhost:5000/api/habits
+
+
+PUT http://localhost:5000/api/habits/checkin/ENTER_ID_HERE
